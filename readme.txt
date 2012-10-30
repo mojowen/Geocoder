@@ -1,4 +1,4 @@
-To use, just run geocoder.bat. AppJS should take care of the rest.
+To use, just run geocoder.exe. AppJS should take care of the rest.
 
 - Scott
 
