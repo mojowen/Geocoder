@@ -1,4 +1,4 @@
-** Geocoder **
+** Geocoder - Windows Version **
 
 Hey this is a really really simple app built off of [AppJS](http://appjs.org).
 
