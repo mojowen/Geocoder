@@ -3,7 +3,7 @@
 body {
     font-family: 'Rokkitt', serif;
     width: 800px;
-    background: #ddd URL('http://maps.googleapis.com/maps/api/staticmap?sensor=true&zoom=2&size=1200x800&maptype=terrain') top left no-repeat;
+    background: #ddd URL('staticmap.png') top left no-repeat;
     margin: 0;
     padding: 0;
     background-size: cover;
