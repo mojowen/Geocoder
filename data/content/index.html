@@ -1,0 +1,46 @@
+<!doctype html>
+<!--
+
+what i want to do with this:
+
+> create windows version
+> create mac version
+> create linux version?
+> be hosted somewhere so people can download it
+
+should:
+
+> track in google analytics - tracking actions
+x > look ok
+x > geocode 
+x > have a countdown
+x > use google maps somehow to not violate tos
+
+
+-->
+<html>
+  <head>
+    <title>Geocode things</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<h2>Batch Geocoder</h2>
+			<p>Use Google's geocoder to map a small* batch of addresses. Can geocode anything Google maps can find. Each lookup takes ~ 2 seconds.</p>
+			<p><em>* tested up to 800 or so</em></p>
+			<div class="left">
+				<textarea id="addresses" placeholder="Enter addresses, separated by line breaks"></textarea>
+				<button>Geocode</button>
+				<h3 class="progress"></h3>
+			</div>
+			<div class="right">
+				<em>Results</em><br />
+				<table id="table"></table>
+				<textarea placeholder="results will go here..." style="display: none" id="results"></textarea>
+			</div>
+		</div>
+  </body>
+</html>

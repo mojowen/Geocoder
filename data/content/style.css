@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Lekton|Rokkitt:400,700);
+
+body {
+    font-family: 'Rokkitt', serif;
+    width: 800px;
+    background: #ddd URL('http://maps.googleapis.com/maps/api/staticmap?sensor=true&zoom=2&size=1200x800&maptype=terrain') top left no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+#content {
+    width: 640px;
+    margin: 80px auto 30px;
+    background-color: #fff;
+    padding: 20px 50px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 15px #333;
+}
+h2, p { text-align: center }
+em { font-size: .8em; }
+#content div { width: 40% }
+.left { float: left; }
+.right { margin-left: 50%; min-height: 200px; }
+textarea#addresses { width: 240px; height: 60px; margin: 20px 0; }
+table, tr, td { border-collapse: collapse; border: 0; }
+button { font-size: 16px; padding: 10px; }
+table { width: 340px; }
+#results, table td { 
+    font-family: 'Lekton', sans-serif;
+    color: #444;
+}
+#results {
+    resize: none;
+}
+table td {
+     border: 1px solid #DDD;
+     font-size: 10px;
+     margin: 0;
+     padding: 4px;
+     text-align: center;
+     cursor: pointer;
+}
+table tr:hover td {
+    background: #efefef;
+}
